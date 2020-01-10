@@ -4,6 +4,7 @@ import PropTypes from 'prop-types';
 
 const SearchInput = ({placeholder, onSubmit}) => {
   const [place, setPlace] = useState('');
+
   const handleSubmitEditing = () => {
     if (!place) {
       return;
